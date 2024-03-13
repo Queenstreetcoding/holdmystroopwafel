@@ -1,0 +1,26 @@
+:root{
+    --darkblue-color: #233142;
+    --lightblue-color: #455d7a;
+    --highlight-color: #f95959;
+    --light-color: #e3e3e3;
+    --box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+
+    --header-text: 'Crimson Text', serif;
+    --plain-text:'Poppins', sans-serif;
+}
+
+
+.banner {
+    margin: 0 auto;
+    height:40vh;
+    width: 100%;
+    position: absolute;
+    max-width: 1328px;
+    background-color: #fc8989;
+    background-position: 50% 50%;
+}
+
+.banner img{
+    position: absolute;
+    height:40vh;
+}
