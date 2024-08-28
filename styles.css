@@ -1,26 +1,27 @@
 :root{
-    --darkblue-color: #233142;
-    --lightblue-color: #455d7a;
-    --highlight-color: #f95959;
-    --light-color: #e3e3e3;
+    --green-color: #b9c99b;
     --box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 
-    --header-text: 'Crimson Text', serif;
-    --plain-text:'Poppins', sans-serif;
+    --header-text: 'larken', sans-serif;
+    --plain-text: 'Metropolis', sans-serif;
 }
 
 
 .banner {
     margin: 0 auto;
-    height:40vh;
+    height:50vh;
     width: 100%;
     position: absolute;
     max-width: 1328px;
-    background-color: #fc8989;
-    background-position: 50% 50%;
+    background-color: #b9c99b;
 }
 
 .banner img{
     position: absolute;
-    height:40vh;
+    height:50vh;
+}
+
+.banner-hi {
+    font-family: var(--header-text);
+    font-weight: 700;
 }
